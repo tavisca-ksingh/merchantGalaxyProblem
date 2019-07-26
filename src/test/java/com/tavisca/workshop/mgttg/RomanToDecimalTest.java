@@ -19,6 +19,8 @@ public class RomanToDecimalTest {
         RomanToDecimal m= new RomanToDecimal();
         assertEquals(1944,m.romanIntoDigits("MCMXLIV"));
         assertEquals(49,m.romanIntoDigits("XLIX"));
+        assertEquals(42,m.romanIntoDigits("XLII"));
+        assertEquals(4,m.romanIntoDigits("IV"));
     }
 
 

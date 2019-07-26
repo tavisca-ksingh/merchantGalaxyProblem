@@ -21,7 +21,7 @@ public class MapWordToRomanValue {
             if(wordToRoman.containsKey(strArray[i]))
             {
                 romanValue += wordToRoman.get(strArray[i]);
-         }
+            }
         }
 
         int divisor= romanToDecimal.romanIntoDigits(romanValue);
@@ -30,4 +30,37 @@ public class MapWordToRomanValue {
         return result;
 
     }
+
+    public int getDecimalFromWords(String [] keys)
+    {
+        int len = keys.length;
+
+        String romanValue="";
+        for(int i=0;i<len;i++)
+        {
+            if(wordToRoman.containsKey(keys[i]))
+            {
+                romanValue += wordToRoman.get(keys[i]);
+            }
+        }
+        int results= romanToDecimal.romanIntoDigits(romanValue);
+        return results;
+    }
+
+    public String getRomanFromWords(String [] keys)
+    {
+        int len = keys.length;
+
+        String romanValue="";
+        for(int i=0;i<len;i++)
+        {
+            if(wordToRoman.containsKey(keys[i]))
+            {
+                romanValue += wordToRoman.get(keys[i]);
+            }
+        }
+        return romanValue;
+    }
+
+
 }

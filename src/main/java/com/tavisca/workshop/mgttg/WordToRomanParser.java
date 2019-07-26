@@ -18,9 +18,20 @@ public class WordToRomanParser {
             return Multipleparse(val);
         }
     }
+     public String checkConditionToVerifyQuestion(String [] val)
+     {
+
+         String initialCondition = "";
+         for(int i= 0; i<3;i++)
+         {
+             initialCondition += val[i] + " ";
+         }
+         return initialCondition;
+     }
 
     private String[] parseTheQuestion(String[] val) {
-        if(Arrays.asList(val).contains("Credits")) {
+
+        if( checkConditionToVerifyQuestion(val).equalsIgnoreCase("how many credits " ) || checkConditionToVerifyQuestion(val).equalsIgnoreCase("how much is " )) {
             int n = Arrays.asList(val).indexOf("is");
             String[] newVal = new String[val.length - (n + 2)];
             int k = 0;
@@ -62,8 +73,6 @@ public class WordToRomanParser {
 
         public double getTheValueFromParseWords(String s)
         {
-
-
             String [] strArray = parse(s);
             double results = (double)0;
             if(strArray.length==2)
@@ -77,12 +86,29 @@ public class WordToRomanParser {
             return  results;
         }
 
-        int n=0;
 
-        public int add(int n)
-        {  this.n+=n;
-            return n;
+        public double  getResults(String s)
+        {
+            String [] valueToCalculate = parse(s);
+            int len =valueToCalculate.length;
+            double credits,results=0;
+
+            if(mapWordToRomanValue.wordsCredits.containsKey(valueToCalculate[len-1])) {
+                credits = mapWordToRomanValue.wordsCredits.get(valueToCalculate[len - 1]);
+                String [] multipleKeys = Arrays.copyOf(valueToCalculate,len-1);
+                int decimalValue = mapWordToRomanValue.getDecimalFromWords(multipleKeys);
+                results = decimalValue * credits;
+                return  results;
+            }
+            else if(mapWordToRomanValue.wordToRoman.containsKey(valueToCalculate[len-1]))
+            {
+                    results = mapWordToRomanValue.getDecimalFromWords(valueToCalculate);
+                    return results;
+            }
+            else
+                throw  new RuntimeException("I have no idea what you are talking about");
         }
+
 
     public String getValueFromWordToRomanMap(String key) {
             if(mapWordToRomanValue.wordToRoman.containsKey(key))
@@ -92,7 +118,7 @@ public class WordToRomanParser {
                 return Double.toString(value);
             }
             else{
-        throw new RuntimeException("Invalid Value");
+        return "I have no idea what you are talking about";
             }
     }
 }
