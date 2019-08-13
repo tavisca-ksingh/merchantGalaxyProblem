@@ -1,7 +1,5 @@
 package com.tavisca.workshop.mgttg;
 
-import org.graalvm.compiler.word.Word;
-
 import java.util.HashMap;
 
 public class MapWordToRomanValue {

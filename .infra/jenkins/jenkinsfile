@@ -5,6 +5,9 @@ pipeline {
             steps {
                 sh script: '''
                     echo "I am in build step"
+                    chmod 777 gradlew
+                    ./gradlew build
+
                 ''',
             label: "Building Project"
             }
@@ -14,6 +17,7 @@ pipeline {
             steps {
                 sh script: '''
                     echo "I am in Test step"
+                    ./gradlew test
                 ''',
             label: "Running Unit Test Cases"
             }
@@ -27,24 +31,7 @@ pipeline {
             label: "Running Sonarqube Scan"
             }
         }
-        stage('Build DockerImage')
-        {
-            steps {
-                sh script: '''
-                    echo "I am Building DockerImage ="
-                ''',
-            label: "Building Docker Image"
-            }
-        }
-        stage('Publish DockerImage')
-        {
-            steps {
-                sh script: '''
-                    echo "I am Pubishing DockerImage ="
-                ''',
-            label: "Publishing Docker Image"
-            }
-        }
+
     }
 	post{
 		always{
