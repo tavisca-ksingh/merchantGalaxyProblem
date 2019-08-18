@@ -1,5 +1,6 @@
 package com.tavisca.workshop.mgttg;
 
+
 import java.util.Arrays;
 
 public class WordToRomanParser {
@@ -42,7 +43,8 @@ public class WordToRomanParser {
             return newVal;
         }
         else{
-            return new String[] {"I have no idea what you are talking about"};
+             String[] strings = {"I have no idea what you are talking about"};
+            return strings;
         }
     }
 
@@ -62,9 +64,9 @@ public class WordToRomanParser {
 
             newVal[i++] = str;
         }
-        if(val[val.length-1].equalsIgnoreCase("credits"))
-        newVal[i] = val[val.length-2];
-        else
+        if(val[val.length-1].equalsIgnoreCase("credits")) {
+            newVal[i] = val[val.length-2];
+        } else
             throw new RuntimeException(val[val.length-2] + "credits is missing");
         return newVal;
     }
@@ -81,7 +83,7 @@ public class WordToRomanParser {
             }
             else if(strArray.length>2){
 
-               results=  mapWordToRomanValue.CalculateMissingValue(strArray);
+               results=  mapWordToRomanValue.calculateMissingValue(strArray);
         }
             return  results;
         }
@@ -121,4 +123,27 @@ public class WordToRomanParser {
         return "I have no idea what you are talking about";
             }
     }
+
+     public static void main(String[] args) {
+         WordToRomanParser parser=new WordToRomanParser();
+            String [] strings= {"glob is I","prok is V","pish is X","glob glob Silver is 34 Credits",
+                    "glob prok Gold is 57800 Credits","pish pish Iron is 3910 Credits",};
+        for (String str:strings  ) {
+            parser.getTheValueFromParseWords(str);
+        }
+
+
+        System.out.println("how much is pish tegj glob glob ? : " + parser.getResults("how much is pish tegj glob glob ?"));
+
+        System.out.println("how many Credits is glob prok Silver ? : " + parser.getResults("how many Credits is glob prok Silver ?"));
+
+        System.out.println("how many Credits is glob prok Gold ? : " + parser.getResults("how many Credits is glob prok Gold ?"));
+
+        System.out.println("how many Credits is glob prok Iron ? : " + parser.getResults("how many Credits is glob prok Iron ?"));
+
+        System.out.println("how much wood could a woodchuck chuck if a woodchuck could chuck wood ? : " + parser.getValueFromWordToRomanMap("how much wood could a woodchuck chuck if a woodchuck could chuck wood ?"));
+
+    }
+
+
 }

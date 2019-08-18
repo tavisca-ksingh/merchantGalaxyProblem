@@ -1,10 +1,9 @@
-
-
 plugins {
     java
+    maven
 }
 
-group = "com.tavisca.workshop.pratham"
+group = "com.tavisca.workshop.mgttg"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -12,11 +11,17 @@ repositories {
 }
 
 
-
 dependencies {
+     
     implementation("org.json:json:20180813")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.5.0")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.5.0")
+}
+
+val jar by tasks.getting(Jar::class) {
+    manifest {
+        attributes["Main-Class"] = "com.tavisca.workshop.mgttg.WordToRomanParser"
+    }
 }
 
 
@@ -25,6 +30,7 @@ configure<JavaPluginConvention> {
     
 }
 tasks.register<Test>("hidden-tests")
+
 tasks.named<Test>("test") {
     dependsOn("cleanTest")
     useJUnitPlatform {
@@ -50,3 +56,4 @@ tasks.named<Test>("hidden-tests") {
         events("passed", "skipped", "failed")
     }
 }
+

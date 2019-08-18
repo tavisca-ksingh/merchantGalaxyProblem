@@ -2,20 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d97ffa5-d7bd-41bf-8fdc-18d7caf97fc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jenkins" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.infra/jenkins/jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/.infra/jenkins/jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tavisca/workshop/mgttg/MapWordToRomanValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/tavisca/workshop/mgttg/MapWordToRomanValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/tavisca/workshop/mgttg/WordToRomanParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/tavisca/workshop/mgttg/WordToRomanParser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/tavisca/workshop/mgttg/InputParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/tavisca/workshop/mgttg/InputParserTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/tavisca/workshop/mgttg/MapWordToRomanValueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/tavisca/workshop/mgttg/MapWordToRomanValueTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/tavisca/workshop/mgttg/RomanToDecimalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/tavisca/workshop/mgttg/RomanToDecimalTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.tavisca.workshop.mgttg.InputParserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.tavisca.workshop.mgttg.InputParserTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.tavisca.workshop.mgttg.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.tavisca.workshop.mgttg.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.tavisca.workshop.mgttg.InputParserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.tavisca.workshop.mgttg.InputParserTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/MapWordToRomanValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/MapWordToRomanValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/WordToRomanParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/WordToRomanParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg/InputParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg/InputParserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg/MapWordToRomanValueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg/MapWordToRomanValueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg/RomanToDecimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg/RomanToDecimalTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -62,19 +64,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle.kts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg/InputParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-940">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="87">
+              <caret line="93" column="186" selection-start-line="93" selection-start-column="85" selection-end-line="93" selection-end-column="186" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,13 +76,63 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradlew.bat">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/MapWordToRomanValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/WordToRomanParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="29">
+              <caret line="129" column="48" selection-start-line="129" selection-start-column="48" selection-end-line="129" selection-end-column="48" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradlew">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg/MapWordToRomanValueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg/RomanToDecimalTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-153">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/RomanToDecimal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -102,49 +145,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/gradlew.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
+            <state relative-caret-position="-480" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/WordToRomanParser.java">
+        <entry file="file://$PROJECT_DIR$/build.gradle.kts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2360">
-              <caret line="120" column="58" selection-start-line="120" selection-start-column="58" selection-end-line="120" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/MapWordToRomanValue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg/MapWordToRomanValueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg/RomanToDecimalTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            <state relative-caret-position="580">
+              <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -174,15 +185,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/merchantGalaxy.java" />
         <option value="$PROJECT_DIR$/src/test/java/InputParserTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg/merchantGalaxyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/RomanToDecimal.java" />
         <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/WordToRomanParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/MapWordToRomanValue.java" />
         <option value="$PROJECT_DIR$/.infra/jenkins/jenkinsfile" />
-        <option value="$PROJECT_DIR$/build.gradle.kts" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg/InputParserTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg/MapWordToRomanValueTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg/RomanToDecimalTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/RomanToDecimal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/MapWordToRomanValue.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg/InputParserTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle.kts" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/WordToRomanParser.java" />
       </list>
     </option>
   </component>
@@ -193,10 +204,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="674" />
-    <option name="y" value="41" />
+    <option name="x" value="423" />
+    <option name="y" value="167" />
     <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="height" value="672" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -204,6 +215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -215,33 +227,6 @@
             <path>
               <item name="merchantGalaxyProblem" type="b2602c69:ProjectViewProjectNode" />
               <item name="merchantGalaxy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".infra" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merchantGalaxyProblem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merchantGalaxy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".infra" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merchantGalaxyProblem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merchantGalaxy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merchantGalaxyProblem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merchantGalaxy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merchantGalaxyProblem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merchantGalaxy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merchantGalaxyProblem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merchantGalaxy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -270,36 +255,6 @@
               <item name="merchantGalaxy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="mgttg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merchantGalaxyProblem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merchantGalaxy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="merchantGalaxyProblem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merchantGalaxy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merchantGalaxyProblem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merchantGalaxy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="workshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="merchantGalaxyProblem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="merchantGalaxy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="workshop" type="462c0819:PsiDirectoryNode" />
               <item name="mgttg" type="462c0819:PsiDirectoryNode" />
@@ -308,15 +263,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ksingh\Desktop\java\merchantGalaxy\src\test\java" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -337,13 +297,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.InputParserTest">
-    <configuration name="InputParserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Application.WordToRomanParser">
+    <configuration name="WordToRomanParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tavisca.workshop.mgttg.WordToRomanParser" />
+      <module name="merchantGalaxyProblem.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tavisca.workshop.mgttg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InputParserTest.CalculateTheMissingValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.tavisca.workshop.mgttg.InputParserTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.tavisca.workshop.mgttg.InputParserTest.CalculateTheMissingValue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -378,12 +351,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="InputParserTest.canParseWordToRomanNumeralStatement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MapWordToRomanValueTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.tavisca.workshop.mgttg.InputParserTest.canParseWordToRomanNumeralStatement&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.tavisca.workshop.mgttg.MapWordToRomanValueTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -398,32 +371,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="InputParserTest.canParsetheValueWeNeededToConvert" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RomanToDecimalTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.tavisca.workshop.mgttg.InputParserTest.canParsetheValueWeNeededToConvert&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MapWordToRomanValueTest.wordsToRoman" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.tavisca.workshop.mgttg.MapWordToRomanValueTest.wordsToRoman&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.tavisca.workshop.mgttg.RomanToDecimalTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -487,11 +440,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.InputParserTest" />
-        <item itemvalue="Gradle.InputParserTest.canParseWordToRomanNumeralStatement" />
-        <item itemvalue="Gradle.MapWordToRomanValueTest.wordsToRoman" />
+        <item itemvalue="Application.WordToRomanParser" />
+        <item itemvalue="Gradle.InputParserTest.CalculateTheMissingValue" />
         <item itemvalue="Gradle.InputParserTest.WordsCalculator" />
-        <item itemvalue="Gradle.InputParserTest.canParsetheValueWeNeededToConvert" />
+        <item itemvalue="Gradle.RomanToDecimalTest" />
+        <item itemvalue="Gradle.MapWordToRomanValueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -509,38 +462,38 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InputParserTest - 2019.08.14 at 00h 40m 52s.xml">
+    <history-entry file="InputParserTest - 2019.08.16 at 12h 15m 03s.xml">
       <configuration name="InputParserTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="InputParserTest - 2019.08.14 at 00h 41m 02s.xml">
+    <history-entry file="InputParserTest - 2019.08.16 at 12h 15m 09s.xml">
       <configuration name="InputParserTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="InputParserTest - 2019.08.14 at 00h 41m 17s.xml">
+    <history-entry file="InputParserTest - 2019.08.16 at 12h 15m 15s.xml">
       <configuration name="InputParserTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="InputParserTest - 2019.08.14 at 00h 41m 30s.xml">
-      <configuration name="InputParserTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="MapWordToRomanValueTest - 2019.08.16 at 12h 15m 41s.xml">
+      <configuration name="MapWordToRomanValueTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="InputParserTest - 2019.08.14 at 00h 41m 45s.xml">
-      <configuration name="InputParserTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="RomanToDecimalTest - 2019.08.16 at 12h 15m 53s.xml">
+      <configuration name="RomanToDecimalTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="InputParserTest - 2019.08.14 at 00h 45m 49s.xml">
-      <configuration name="InputParserTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="RomanToDecimalTest - 2019.08.16 at 16h 48m 21s.xml">
+      <configuration name="RomanToDecimalTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="InputParserTest_canParseWordToRomanNumeralStatement - 2019.08.14 at 00h 53m 21s.xml">
-      <configuration name="InputParserTest.canParseWordToRomanNumeralStatement" configurationId="GradleRunConfiguration" />
+    <history-entry file="RomanToDecimalTest - 2019.08.16 at 17h 31m 50s.xml">
+      <configuration name="RomanToDecimalTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="InputParserTest_canParseWordToRomanNumeralStatement - 2019.08.14 at 11h 16m 19s.xml">
-      <configuration name="InputParserTest.canParseWordToRomanNumeralStatement" configurationId="GradleRunConfiguration" />
+    <history-entry file="RomanToDecimalTest - 2019.08.18 at 15h 04m 19s.xml">
+      <configuration name="RomanToDecimalTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="InputParserTest_canParseWordToRomanNumeralStatement - 2019.08.14 at 11h 20m 59s.xml">
-      <configuration name="InputParserTest.canParseWordToRomanNumeralStatement" configurationId="GradleRunConfiguration" />
+    <history-entry file="InputParserTest_WordsCalculator - 2019.08.18 at 15h 04m 31s.xml">
+      <configuration name="InputParserTest.WordsCalculator" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="InputParserTest - 2019.08.14 at 11h 21m 26s.xml">
-      <configuration name="InputParserTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="InputParserTest_CalculateTheMissingValue - 2019.08.18 at 15h 09m 09s.xml">
+      <configuration name="InputParserTest.CalculateTheMissingValue" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -553,7 +506,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49717513" visible="true" weight="0.22541603" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49717513" visible="true" weight="0.19440243" />
       <window_info id="Structure" order="1" sideWeight="0.50282484" side_tool="true" weight="0.24281392" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -562,56 +515,27 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5688351" visible="true" weight="0.15220949" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5688351" weight="0.3633388" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3986711" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49848714" weight="0.049099836" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32405892" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49848714" weight="0.44680852" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4311649" side_tool="true" weight="0.42062193" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.33551556" />
-      <window_info anchor="bottom" id="SonarLint" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.29459903" />
+      <window_info anchor="bottom" id="SonarLint" order="11" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.13313162" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.022692889" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Gradle" order="8" weight="0.3290469" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.42662632" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18986385" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31423897" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.33554816" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Gradle" order="8" weight="0.329602" />
-    </layout-to-restore>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/merchantGalaxyProblem$InputParserTest_WordsCalculator.ic" NAME="InputParserTest.WordsCalculator Coverage Results" MODIFIED="1565722158811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -631,30 +555,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/RomanToDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.infra/jenkins/jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -665,53 +569,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/WordToRomanParser.java">
+    <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2360">
-          <caret line="120" column="58" selection-start-line="120" selection-start-column="58" selection-end-line="120" selection-end-column="58" />
+        <state relative-caret-position="-1140" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/MapWordToRomanValue.java">
+    <entry file="file://$PROJECT_DIR$/dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="80">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg/MapWordToRomanValueTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/RomanToDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg/RomanToDecimalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle.kts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg/InputParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-940">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="-153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg/InputParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="93" column="186" selection-start-line="93" selection-start-column="85" selection-end-line="93" selection-end-column="186" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle.kts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/MapWordToRomanValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tavisca/workshop/mgttg/MapWordToRomanValueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tavisca/workshop/mgttg/WordToRomanParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="129" column="48" selection-start-line="129" selection-start-column="48" selection-end-line="129" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>test|merchantGalaxyProblem</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

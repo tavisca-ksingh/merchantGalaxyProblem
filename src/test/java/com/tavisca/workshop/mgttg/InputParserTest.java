@@ -1,6 +1,4 @@
 package com.tavisca.workshop.mgttg;
-
-
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

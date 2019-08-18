@@ -4,11 +4,11 @@ import java.util.HashMap;
 
 public class MapWordToRomanValue {
 
-    protected HashMap<String, String> wordToRoman = new HashMap<String, String>();
-    protected HashMap<String, Double> wordsCredits = new HashMap<String,Double>();
+    protected HashMap<String, String> wordToRoman = new HashMap<>();
+    protected HashMap<String, Double> wordsCredits = new HashMap<>();
     RomanToDecimal romanToDecimal=new RomanToDecimal();
 
-    public double CalculateMissingValue(String[] strArray) {
+    public double calculateMissingValue(String[] strArray) {
         int len =strArray.length;
         int val = Integer.parseInt(strArray[len-1]);
         String key = strArray[len-2];
