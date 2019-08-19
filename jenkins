@@ -32,10 +32,6 @@ stage('Static Code Analysis')
 steps {
 sh script: '''
 echo "I am in Sonarqube scan"
-./gradlew sonarqube \
-  -Dsonar.projectKey=merchantGalaxyProblem \
-  -Dsonar.host.url=http://localhost:9000 \
-  -Dsonar.login=5ba726550b75b483c3461d6e299e9e392ce3d8f1
 
 ''',
 label: "Running Sonarqube Scan"
