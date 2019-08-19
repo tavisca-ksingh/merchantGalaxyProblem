@@ -29,13 +29,14 @@ pipeline {
 
 stage('Static Code Analysis')
 {
-steps {
-sh script: '''
-echo "I am in Sonarqube scan"
-
-''',
-label: "Running Sonarqube Scan"
-} 
+	steps{
+    script {
+      docker.withRegistry( '', registryCredential ) {
+        docker tag merchantgalaxy:1.1 itskrrish/merchantgalaxy
+        docker push itskrrish/merchantgalaxy
+      }
+    }
+  }
 }
 
 
@@ -52,16 +53,15 @@ label: "Running Sonarqube Scan"
         stage('Publish DockerImage')
         {
             steps {
-	     script {
-      docker.withRegistry( '', registryCredential ) {
-       docker tag merchantgalaxy:1.1 itskrrish/merchantgalaxy
+                sh label: '', script: '''
+		echo "I am Pubishing DockerImage "
+		    docker login -u itskrrish -p 'Krri$H123'
+                    docker tag merchantgalaxy:1.1 itskrrish/merchantgalaxy
                     docker push itskrrish/merchantgalaxy
-      }
-                  
-       	}
+		    '''
+        	}
     	}
     }
-    
     post{
     always{
     		deleteDir()
