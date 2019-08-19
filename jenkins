@@ -1,5 +1,9 @@
 pipeline {
     agent any
+     environment {
+    registry = "itskrrish/merchantgalaxy"
+    registryCredential = 'dockerhub'
+}
     stages {
         stage('Build') {
             steps {
@@ -21,16 +25,25 @@ pipeline {
             label: "Running Unit Test Cases"
             }
         }
-        stage('Static Code Analysis')
-        {
-            steps {
-                sh script: '''
-                    echo "I am in Sonarqube scan"
-                ''',
-            label: "Running Sonarqube Scan"
-            }
-        }
-        stage('Build DockerImage')
+        
+
+stage('Static Code Analysis')
+{
+steps {
+sh script: '''
+echo "I am in Sonarqube scan"
+./gradlew sonarqube \
+  -Dsonar.projectKey=merchantGalaxyProblem \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=5ba726550b75b483c3461d6e299e9e392ce3d8f1
+
+''',
+label: "Running Sonarqube Scan"
+} 
+}
+
+
+   stage('Build DockerImage')
         {
             steps {
                 sh label: '', script: '''
@@ -45,7 +58,7 @@ pipeline {
             steps {
                 sh label: '', script: '''
 		echo "I am Pubishing DockerImage "
-			
+		    docker login -u itskrrish -p 'Krri$H123'
                     docker tag merchantgalaxy:1.1 itskrrish/merchantgalaxy
                     docker push itskrrish/merchantgalaxy
 		    '''

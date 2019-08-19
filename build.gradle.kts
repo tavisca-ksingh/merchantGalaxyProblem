@@ -1,7 +1,12 @@
 plugins {
-    java
-    maven
+    java ;
+
+    id("org.sonarqube").version("2.7");
+
 }
+
+
+
 
 group = "com.tavisca.workshop.mgttg"
 version = "1.0-SNAPSHOT"
@@ -12,7 +17,7 @@ repositories {
 
 
 dependencies {
-     
+    
     implementation("org.json:json:20180813")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.5.0")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.5.0")
