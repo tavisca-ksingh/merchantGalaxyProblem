@@ -52,20 +52,16 @@ label: "Running Sonarqube Scan"
         stage('Publish DockerImage')
         {
             steps {
-                sh label: '', script: '''
-		echo "I am Pubishing DockerImage "
-		    
-		
-    	  docker.withRegistry( '', registryCredential ) {
-        	docker tag merchantgalaxy:1.1 itskrrish/merchantgalaxy
+	     script {
+      docker.withRegistry( '', registryCredential ) {
+       docker tag merchantgalaxy:1.1 itskrrish/merchantgalaxy
                     docker push itskrrish/merchantgalaxy
-      			}
-    
+      }
                   
-		    '''
-        	}
+       	}
     	}
     }
+    
     post{
     always{
     		deleteDir()
