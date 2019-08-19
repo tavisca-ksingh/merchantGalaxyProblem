@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.tavisca.workshop.mgttg.InputParserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-26T11:55:21" hostname="RENTLAPT0111" time="0.003">
+<testsuite name="com.tavisca.workshop.mgttg.InputParserTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-08-19T05:23:21" hostname="RENTLAPT0111" time="0.042">
   <properties/>
-  <testcase name="WordsCalculator" classname="com.tavisca.workshop.mgttg.InputParserTest" time="0.003"/>
+  <testcase name="canParseWordToRomanNumeralStatement()" classname="com.tavisca.workshop.mgttg.InputParserTest" time="0.024"/>
+  <testcase name="WordsCalculator()" classname="com.tavisca.workshop.mgttg.InputParserTest" time="0.004"/>
+  <testcase name="canParseMultipleWordsToRomanNumeralStatement()" classname="com.tavisca.workshop.mgttg.InputParserTest" time="0.001"/>
+  <testcase name="canParsetheValueWeNeededToConvert()" classname="com.tavisca.workshop.mgttg.InputParserTest" time="0.001"/>
+  <testcase name="checkInitialConditonToVerifyQuestion()" classname="com.tavisca.workshop.mgttg.InputParserTest" time="0.001"/>
+  <testcase name="CheckTheValueInMap()" classname="com.tavisca.workshop.mgttg.InputParserTest" time="0.001"/>
+  <testcase name="CalculateTheMissingValue()" classname="com.tavisca.workshop.mgttg.InputParserTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

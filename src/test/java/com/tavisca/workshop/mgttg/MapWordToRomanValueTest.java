@@ -1,9 +1,9 @@
 package com.tavisca.workshop.mgttg;
 
-import org.junit.Test;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.*;
 public class MapWordToRomanValueTest {
 
     MapWordToRomanValue mapWordToRomanValue=new MapWordToRomanValue();
@@ -16,7 +16,7 @@ public class MapWordToRomanValueTest {
             mapWordToRomanValue.wordToRoman.put("prok","V");
             mapWordToRomanValue.wordToRoman.put("pish","X");
             mapWordToRomanValue.wordToRoman.put("tegj","L");
-            assertEquals(17,mapWordToRomanValue.CalculateMissingValue("glob glob Silver 34".split(" ")),1 );
+            assertEquals(17,mapWordToRomanValue.calculateMissingValue("glob glob Silver 34".split(" ")),1 );
 
         }
         @Test

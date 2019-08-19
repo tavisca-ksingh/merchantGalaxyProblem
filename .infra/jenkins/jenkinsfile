@@ -1,0 +1,42 @@
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                sh script: '''
+                    echo "I am in build step"
+                    chmod 777 gradlew
+                    ./gradlew build
+
+                ''',
+            label: "Building Project"
+            }
+        }
+        stage('Test')
+        {
+            steps {
+                sh script: '''
+                    echo "I am in Test step"
+                    chmod 777 gradlew
+                    ./gradlew test
+                ''',
+            label: "Running Unit Test Cases"
+            }
+        }
+        stage('Static Code Analysis')
+        {
+            steps {
+                sh script: '''
+                    echo "I am in Sonarqube scan"
+                ''',
+            label: "Running Sonarqube Scan"
+            }
+        }
+
+    }
+	post{
+		always{
+				deleteDir()
+			  }
+		}
+}
