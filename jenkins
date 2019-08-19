@@ -52,14 +52,12 @@ label: "Running Sonarqube Scan"
         }
         stage('Publish DockerImage')
         {
-            steps {
-                
+            steps {    
 	 withDockerRegistry([ credentialsId: "dockerhub" , url:""]) {
-          sh 'docker push itskrrish/merchantgalaxy'
-         
-				}            
+          sh 'docker push itskrrish/merchantgalaxy'   
+			}            
         	}
-    	}
+    	 }
     }
 	
     post{
