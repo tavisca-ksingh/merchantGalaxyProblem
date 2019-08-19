@@ -32,11 +32,6 @@ stage('Static Code Analysis')
 steps {
 sh script: '''
 echo "I am in Sonarqube scan"
- chmod 777 gradlew
-./gradlew sonarqube \
-  -Dsonar.projectKey=merchantGalaxyProblem \
-  -Dsonar.host.url=http://localhost:9000 \
-  -Dsonar.login=5ba726550b75b483c3461d6e299e9e392ce3d8f1
 
 ''',
 label: "Running Sonarqube Scan"
@@ -59,7 +54,7 @@ label: "Running Sonarqube Scan"
             steps {
                 sh label: '', script: '''
 		echo "I am Pubishing DockerImage "
-		    docker login -u itskrrish -p 'Krri$H123'
+		    docker login docker.io
                     docker tag merchantgalaxy:1.1 itskrrish/merchantgalaxy
                     docker push itskrrish/merchantgalaxy
 		    '''
