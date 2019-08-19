@@ -54,7 +54,7 @@ label: "Running Sonarqube Scan"
         {
             steps {
                 
-	 withDockerRegistry([ credentialsId: "dockerhub" ]) {
+	 withDockerRegistry([ credentialsId: "dockerhub" , url:""]) {
           sh 'docker push itskrrish/merchantgalaxy'
          
 				}            
