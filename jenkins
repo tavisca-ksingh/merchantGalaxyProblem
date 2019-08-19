@@ -54,7 +54,7 @@ label: "Running Sonarqube Scan"
             steps {
                 sh label: '', script: '''
 		echo "I am Pubishing DockerImage "
-		    docker login 
+		    winpty docker login 
                     docker tag merchantgalaxy:1.1 itskrrish/merchantgalaxy
                     docker push itskrrish/merchantgalaxy
 		    '''
