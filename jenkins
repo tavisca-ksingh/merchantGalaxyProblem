@@ -46,21 +46,22 @@ label: "Running Sonarqube Scan"
 			echo "I am at building stage"
 			docker build -t merchantgalaxy:1.1 .
 			docker run -d -p 1234:1234 merchantgalaxy:1.1
+			docker tag merchantgalaxy:1.1 itskrrish/merchantgalaxy
 			'''
             }
         }
         stage('Publish DockerImage')
         {
             steps {
-                sh label: '', script: '''
-		echo "I am Pubishing DockerImage "
-		    docker login -u itskrrish -p 'Krri$H123'
-                    docker tag merchantgalaxy:1.1 itskrrish/merchantgalaxy
-                    docker push itskrrish/merchantgalaxy
-		    '''
+                
+	 withDockerRegistry([ credentialsId: "dockerhub" ]) {
+          sh 'docker push itskrrish/merchantgalaxy'
+         
+				}            
         	}
     	}
     }
+	
     post{
     always{
     		deleteDir()
